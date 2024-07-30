@@ -37,3 +37,97 @@ while read
 			fi
 		fi
 	done< <(cat ${SOURCEHTML}/events/structures.html)
+
+#extra additions
+echo "<Token>"
+echo "	<Name>XSetWindowAttributes</Name>"
+echo "	<Type>Struct</Type>"
+echo "	<Path>window/attributes/index.html</Path>"
+echo "	<Anchor>XSetWindowAttributes</Anchor>"
+echo "</Token>"
+
+echo "<Token>"
+echo "	<Name>background-pixmap</Name>"
+echo "	<Type>Attribute</Type>"
+echo "	<Path>window/attributes/background.html</Path>"
+echo "</Token>"
+
+echo "<Token>"
+echo "	<Name>background-pixel</Name>"
+echo "	<Type>Attribute</Type>"
+echo "	<Path>window/attributes/background.html</Path>"
+echo "</Token>"
+
+echo "<Token>"
+echo "	<Name>border-pixel</Name>"
+echo "	<Type>Attribute</Type>"
+echo "	<Path>window/attributes/border.html</Path>"
+echo "	<Anchor></Anchor>"
+echo "</Token>"
+
+echo "<Token>"
+echo "	<Name>bit-gravity</Name>"
+echo "	<Type>Attribute</Type>"
+echo "	<Path>window/attributes/gravity.html</Path>"
+echo "</Token>"
+
+echo "<Token>"
+echo "	<Name>win-gravity</Name>"
+echo "	<Type>Attribute</Type>"
+echo "	<Path>window/attributes/gravity.html</Path>"
+echo "</Token>"
+
+echo "<Token>"
+echo "	<Name>backing-store</Name>"
+echo "	<Type>Attribute</Type>"
+echo "	<Path>window/attributes/backing-store.html</Path>"
+echo "</Token>"
+
+echo "<Token>"
+echo "	<Name>backing-planes</Name>"
+echo "	<Type>Attribute</Type>"
+echo "	<Path>window/attributes/backing.html</Path>"
+echo "</Token>"
+
+echo "<Token>"
+echo "	<Name>backing-pixel</Name>"
+echo "	<Type>Attribute</Type>"
+echo "	<Path>window/attributes/backing.html</Path>"
+echo "</Token>"
+
+echo "<Token>"
+echo "	<Name>save-under</Name>"
+echo "	<Type>Attribute</Type>"
+echo "	<Path>window/attributes/save-under.html</Path>"
+echo "</Token>"
+
+echo "<Token>"
+echo "	<Name>event-mask</Name>"
+echo "	<Type>Attribute</Type>"
+echo "	<Path>window/attributes/event-and-do-not-propagate.html</Path>"
+echo "</Token>"
+
+echo "<Token>"
+echo "	<Name>do-not-propagate-mask</Name>"
+echo "	<Type>Attribute</Type>"
+echo "	<Path>window/attributes/event-and-do-not-propagate.html</Path>"
+echo "</Token>"
+
+echo "<Token>"
+echo "	<Name>override-redirect</Name>"
+echo "	<Type>Attribute</Type>"
+echo "	<Path>window/attributes/override-redirect.html</Path>"
+echo "</Token>"
+
+echo "<Token>"
+echo "	<Name>colormap</Name>"
+echo "	<Type>Attribute</Type>"
+echo "	<Path>window/attributes/colormap.html</Path>"
+echo "</Token>"
+
+echo "<Token>"
+echo "	<Name>cursor</Name>"
+echo "	<Type>Attribute</Type>"
+echo "	<Path>window/attributes/cursor.html</Path>"
+echo "</Token>"
+
