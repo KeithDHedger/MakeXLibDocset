@@ -7,4 +7,4 @@ DESTDIR=/some/other/path ./makedocset<br>
 Other variables like the name can be adjusted, see the makedocset file.<br>
 Including downloading the html files it takes about 2/3 mins to complete, depending on your system.
 <br>
-A small qt5 xmlreader will be built also on the first run.
+A small qt5 xmlreader will be built also on the first run, if you have qt6 installed instead just change "g++ tagreader.cpp $(pkg-config --cflags --libs Qt5Core) -fPIC -o tagreader" in getresources to "g++ tagreader.cpp $(pkg-config --cflags --libs Qt6Core) -fPIC -o tagreader".<br>
