@@ -6,3 +6,5 @@ The doc set is by default built in ~/.local/share/Zeal/Zeal/docsets, but you can
 DESTDIR=/some/other/path ./makedocset<br>
 Other variables like the name can be adjusted, see the makedocset file.<br>
 Including downloading the html files it takes about 2/3 mins to complete, depending on your system.
+<br>
+A small qt5 xmlreader will be built also on the first run.

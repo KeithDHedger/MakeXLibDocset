@@ -19,6 +19,7 @@
 #along with MakeXLibDocset.  If not, see <http://www.gnu.org/licenses/>.
 #
 
+CWD=$(pwd)
 ICONPATH=${ICONPATH:-"./xlib.png"}
 SOURCEHTML=${SOURCEHTML:-"html"};
 DOCSET_NAME=${DOCSET_NAME:-"XLib"}
@@ -86,7 +87,7 @@ END_SQL
 				echo "Adding $Name ..."
 				sqlite3 docSet.dsidx  "insert into searchindex (name,type,path) values ('$Name','$Type','$FILEPATH');"
 			fi
-		done< <(kkeditqttagreader Tokens.xml Token Name Type Path Anchor)
+		done< <(${CWD}/tagreader Tokens.xml Token Name Type Path Anchor)
 	rm Tokens.xml
 popd &>/dev/null
 

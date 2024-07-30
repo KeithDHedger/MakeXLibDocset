@@ -18,6 +18,10 @@
 #along with MakeXLibDocset.  If not, see <http://www.gnu.org/licenses/>.
 #
 
+if [[ ! -e ./tagreader ]];then
+	g++ tagreader.cpp $(pkg-config --cflags --libs Qt5Core) -fPIC -o tagreader
+fi
+
 if [[ ! -e html ]];then
 	mkdir html
 	pushd html
