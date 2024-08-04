@@ -10,3 +10,7 @@ Including downloading the html files it takes about 2/3 mins to complete, depend
 A small qt5 xmlreader will be built also on the first run, if you have qt6 installed instead just change "Qt5Core" in getresources to "Qt6Core".<br>
 
 These scripts could also be used ( with a bit of tweaking ) to create a docset for any well structured html pages.<br>
+
+Changelog:<br>
+Added some extra tokens manually.<br>
+Added some more extra tokens manually.<br>

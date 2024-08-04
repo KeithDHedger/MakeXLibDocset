@@ -40,6 +40,12 @@ while read
 
 #extra additions
 echo "<Token>"
+echo "	<Name>XVisualInfo</Name>"
+echo "	<Type>Struct</Type>"
+echo "	<Path>utilities/visual.html#XVisualInfo</Path>"
+echo "</Token>"
+
+echo "<Token>"
 echo "	<Name>XSetWindowAttributes</Name>"
 echo "	<Type>Struct</Type>"
 echo "	<Path>window/attributes/index.html</Path>"
@@ -130,4 +136,5 @@ echo "	<Name>cursor</Name>"
 echo "	<Type>Attribute</Type>"
 echo "	<Path>window/attributes/cursor.html</Path>"
 echo "</Token>"
+
 
